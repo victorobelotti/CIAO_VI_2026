@@ -13,3 +13,10 @@ Itens escolhidos:
 2- Seguindo a mesma lógica, com 15 itens teriamos 32.768 possibilidades para o computador analisar, o suficiente para ele demorar mais para testar todas as combinações possíveis. Porém ainda é um número de possibilidades que um computador consegue usar "força bruta", o problema é quando aumentamos o números de itens, pois a cada 1 que adicionamos, o número de possibilidades práticamente duplica, por isso a importancia de entender o problema e aplicar por exemplo uma programação dinâmica.
 
 3- Um outro caso parecido com esse seria o problema de campanhias aéreas de escolher a quantidade de cargas ideal para colocar no avião, respeitando o limite de peso.
+
+
+
+
+
+
+<img width="436" height="84" alt="image" src="https://github.com/user-attachments/assets/1838a94e-9629-4899-94f5-0a398ad75085" />

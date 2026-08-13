@@ -20,3 +20,14 @@ Itens escolhidos:
 
 
 <img width="436" height="84" alt="image" src="https://github.com/user-attachments/assets/1838a94e-9629-4899-94f5-0a398ad75085" />
+
+1- o numero de rotas cresce de forma fatorial, por exemplo se uma cidade possui 6 rotas, esse valor será multiplicado por 4 (N-1)
+
+2- <img width="340" height="70" alt="image" src="https://github.com/user-attachments/assets/4d4e3d07-4fdb-4a62-9ecc-9e6baad7584f" />
+
+3- O TSP é considerado difícil porque o número de rotas cresce muito rapidamente com o número de cidades.
+Na força-bruta, o número de rotas é dado por (n-1)!.
+Por exemplo, 6 cidades geram 120 rotas, enquanto 10 geram 362.880.
+Com mais cidades, o número de possibilidades aumenta de forma muito rápida.
+Isso faz com que o tempo para testar todas as rotas fique cada vez maior.
+Por isso, a força-bruta se torna inviável para problemas grandes.

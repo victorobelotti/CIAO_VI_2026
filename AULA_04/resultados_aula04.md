@@ -18,6 +18,7 @@ Com SLA ativado o codigo passou a desconsiderar as rotas menores ruins, agora pr
 
 ===================================================================================================================================================
 LAB_03
+<img width="597" height="139" alt="image" src="https://github.com/user-attachments/assets/e731a7f2-5de9-4126-a975-cda89451cc3f" />
 
 
 

@@ -46,3 +46,39 @@ Isso acontece porque escolhe os itens de maior valor/peso primeiro.
 Eu usaria essa técnica em problemas grandes e que precisam de rapidez.
 Ela também é útil quando uma solução aproximada já é suficiente,quando a solução precisa ser a melhor possível, usaria um método exato.
 Assim, gastaria mais tempo para garantir o resultado ótimo.
+
+=======================================================================================================================================
+
+LAB 04
+1. Descrição do Problema 
+Otimização da Carga de Veículo de Entrega (Logística)  
+Diariamente, o centro de distribuição recebe uma lista de pedidos que precisam ser enviados. Cada pedido possui um peso específico (em kg) e uma prioridade associada (urgência ou valor para o cliente). O veículo de entrega tem uma capacidade máxima de carga que não pode ser excedida por razões de segurança e conformidade legal. O desafio é decidir quais pedidos devem ser carregados no veículo hoje de forma que a soma das prioridades dos pedidos escolhidos seja a maior possível, sem ultrapassar o limite de peso do caminhão.
+
+2. Modelagem Formal 
+O que é uma solução (Representação):
+A solution candidate é representada por um vetor binário $x = [x_1, x_2, \dots, x_n]$, onde $n$ é o total de pedidos disponíveis no dia. Se $x_i = 1$, o pedido $i$ foi selecionado para embarque. Se $x_i = 0$, o pedido $i$ permanece no armazém para o próximo dia.
+
+Qual é o espaço de busca:
+Como cada um dos $n$ pedidos pode ter dois estados (embarcado ou não), o espaço total de busca é composto por $2^n$ combinações possíveis. Para apenas 30 pedidos, já existem mais de 1 bilhão de soluções possíveis.
+
+Qual é a função objetivo:
+Queremos maximizar a prioridade total dos itens carregados.  
+$$\max \sum_{i=1}^{n} (p_i \cdot x_i)$$  
+Sendo $p_i$ a prioridade do pedido $i$.
+
+Quais são as restrições:
+A soma dos pesos dos pedidos selecionados não pode ultrapassar a capacidade máxima $W$ do veículo. Uma solução torna-se inválida se houver excesso de peso.  
+$$\sum_{i=1}^{n} (w_i \cdot x_i) \le W$$  
+Sendo $w_i$ o peso do pedido $i$.
+
+3.Classificação do Problema 
+**Classificação:** Problema "Difícil" (NP-Difícil).  
+**Justificativa:** Este é o tradicional Problema da Mochila Binária (0/1 Knapsack). Ele é considerado NP-Difícil porque não há um algoritmo conhecido que consiga encontrar a solução exata e ótima em tempo polinomial para todos os casos. Como o espaço de busca cresce exponencialmente ($2^n$), tentar resolver o problema verificando todas as combinações por "força bruta" torna-se computacionalmente inviável à medida que a quantidade de pedidos no sistema aumenta.
+
+
+4- imagem do resultado
+
+<img width="539" height="94" alt="image" src="https://github.com/user-attachments/assets/82a6da54-34f7-4892-a8eb-9e0f762e3e2d" />
+
+
+

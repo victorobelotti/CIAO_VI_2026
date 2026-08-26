@@ -13,3 +13,14 @@ Lab_02
 <img width="544" height="32" alt="image" src="https://github.com/user-attachments/assets/6e3e6ab2-10b6-4f0b-8307-5c3c7653d57d" />
 
 Com SLA ativado o codigo passou a desconsiderar as rotas menores ruins, agora priorizando rotas um pouco maiores mas mais seguras.
+
+
+
+===================================================================================================================================================
+LAB_03
+
+
+
+
+
+=====================================================================================================================================================

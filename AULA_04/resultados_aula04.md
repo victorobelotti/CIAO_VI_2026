@@ -6,7 +6,7 @@ Lab_01
 
 Com o elitismo ativado ele garante uma melhora continua da população, sem ele há oscilações
 
-==================================================================================================================================================
+==================================================================================================================
 
 Lab_02
 
@@ -15,13 +15,10 @@ Lab_02
 Com SLA ativado o codigo passou a desconsiderar as rotas menores ruins, agora priorizando rotas um pouco maiores mas mais seguras.
 
 
-
-===================================================================================================================================================
+==================================================================================================================
 LAB_03
 <img width="597" height="139" alt="image" src="https://github.com/user-attachments/assets/e731a7f2-5de9-4126-a975-cda89451cc3f" />
 
+O resultado de 139,0 segundos reflete o tempo do Servidor 0, o mais sobrecarregado, que definiu o tempo total de espera para a conclusão de todo o processamento. Uma grande vantagem nos dados é que a diferença entre o servidor mais ocupado foi 139,0s e o menos ocupado foi 129,0s apenas 10 segundos. Isso mostra que o algoritmo aprendeu a dividir as tarefas para preencher as folgas, alcançando uma boa distribuição ficando com apenas 3,5s acima do limite.
 
-
-
-
-=====================================================================================================================================================
+==================================================================================================================

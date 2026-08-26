@@ -107,4 +107,27 @@ Por que a Média não atinge exatamente 20: Apesar do melhor indivíduo alcança
 
 LINK PARA O GRÁFICO ---> <img width="1192" height="393" alt="image" src="https://github.com/user-attachments/assets/9a3ecb0b-dfdd-4641-921e-66c327b9cdea" />
 
+
+==========================================================================================================================
+
+LAB 03
+OTIMIZANDO f(x) = x * sin(3x)
+Geração   0: Melhor f(x) = 6.8378 (x = 6.8235)
+Geração  10: Melhor f(x) = 8.5284 (x = 9.0980)
+Geração  20: Melhor f(x) = 8.8521 (x = 8.9412)
+Geração  30: Melhor f(x) = 8.8521 (x = 8.9412)
+Geração  40: Melhor f(x) = 8.8726 (x = 8.9020)
+
+ MELHOR SOLUÇÃO: x = 8.9020, f(x) = 8.8726
+
+6. Análise sobre Funções Não Lineares
+
+Nesta fase final, modelamos um problema mais complexo, similar a cenários reais de engenharia, o que nos levou a importantes conclusões:
+
+* **Desafio dos Ótimos Locais:** A função $f(x) = x \sin(3x)$ apresenta várias oscilações ao longo do intervalo de 0 a 10, criando múltiplos ótimos locais. Notamos que o Algoritmo Genético é eficaz em evitar ficar preso nesses picos menores. Com a mutação de 5% e a diversificação da população, ele conseguiu "pular" até a região do pico global, próximo a $x = 8.9$.
+* **Mapeamento Genético (Resolução):** Aprendemos a traduzir um cromossomo para um problema real. Com 8 bits, temos $2^8 = 256$ combinações. Dividindo o intervalo de tamanho 10 em 256 partes, vimos que o AG avalia a função em passos de $0.039$. Se precisarmos de mais precisão decimal, aumentaríamos o cromossomo para 16 ou 32 bits.
+* **Problema da Roleta e Fitness Negativo:** Enfrentamos um desafio técnico relevante. Como a função pode gerar resultados negativos ao cair em vales do seno, usar a seleção por roleta padrão causaria problemas matemáticos (não podemos somar ou sortear valores negativos). Compreendemos que o *fitness* deve ser uma medida de desempenho. Resolvemos isso aplicando um *shift* (somando 10 ao resultado de f(x)), assegurando que todos os indivíduos tivessem uma probabilidade positiva e mantendo a justiça da roleta.
+
+LINK DO GRÁFICO -> <img width="1135" height="620" alt="image" src="https://github.com/user-attachments/assets/fb4f253c-9dba-4cd2-8e5d-2669c94d6156" />
+
        

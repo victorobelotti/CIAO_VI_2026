@@ -24,4 +24,56 @@ Missão 04
 <img width="1429" height="172" alt="image" src="https://github.com/user-attachments/assets/18c47ae2-4f7a-4663-a3e8-90a5a275d4f4" />
 
 
-Relatorio:
+# RELATÓRIO FINAL PSO
+
+---
+
+## PARTE 1: O QUE VOCÊ APRENDEU?
+
+### 1. Explique com suas palavras o que é o PSO e como ele funciona.
+O PSO é um algoritmo de otimização estocástico inspirado no comportamento social e coletivo de grupos de animais, como bandos de pássaros e cardumes de peixes. Ele funciona espalhando diversas soluções candidatas em um espaço de busca multidimensional. 
+
+A cada iteração, cada partícula atualiza sua posição com base em uma velocidade que combina três componentes:
+Inércia: A tendência de manter a direção de movimento atual.
+Componente Cognitivo: A atração em direção à melhor posição que a própria partícula já encontrou (*pBest*).
+Componente Social: A atração em direção à melhor posição encontrada por qualquer partícula de todo o enxame (*gBest*).
+
+---
+
+### 2. Qual a diferença entre pBest e gBest? Por que ambos são importantes?
+Personal Best (pBest): É o melhor ponto individual alcançado por uma partícula específica.
+Global Best (gBest): É o melhor ponto alcançado pelo enxame todo.
+
+**Por que ambos são importantes?**
+O pBest promove a exploração, dando autonomia para que as partículas investiguem regiões distintas do espaço de busca sem se concentrarem imediatamente no mesmo lugar.
+* O gBest promove a convergência/cooperação, guiando todo o grupo em direção à região globalmente mais promissora. O equilíbrio entre esses dois conceitos é o que evita que o algoritmo fique preso em mínimos locais.
+
+---
+
+## PARTE 2: SUA EXPERIÊNCIA COM AS MISSÕES
+
+### Missão 1 - A Partícula Solitária:
+* A partícula encontrou o mínimo? ( X ) Sim ( ) Não
+* Quantas iterações foram necessárias? 20
+* Dificuldade: ( X ) Fácil ( ) Médio ( ) Difícil
+
+---
+
+### Missão 2 - O Enxame:
+* O enxame encontrou o mínimo global? ( X ) Sim ( ) Não
+* Compare com a Missão 1: O enxame foi mais rápido? ( X ) Sim ( ) Não
+* Dificuldade: ( ) Fácil ( X ) Médio ( ) Difícil
+
+---
+
+### Missão 3 - Problema Corporativo:
+Compare com o custo inicial: Melhorou? ( X ) Sim ( ) Não
+Quantos centros foram alocados? 5
+Dificuldade: ( ) Fácil ( X ) Médio ( ) Difícil
+
+---
+
+### Missão 4 - Otimização de Parâmetros:
+Melhor configuração encontrada:w = 0.7, c1 = 1.8, c2 = 1.8, partículas = 60
+Pior configuração encontrada: w = 0.5, c1 = 1.8, c2 = 1.8, partículas = 30
+Dificuldade: ( ) Fácil ( X ) Médio ( ) Difícil

@@ -20,4 +20,7 @@ Missão 04
 
 <img width="1410" height="737" alt="image" src="https://github.com/user-attachments/assets/d188e28f-66e0-4d9f-b258-c97020035992" />
 
+<img width="1429" height="172" alt="image" src="https://github.com/user-attachments/assets/18c47ae2-4f7a-4663-a3e8-90a5a275d4f4" />
+
+
 Relatorio:

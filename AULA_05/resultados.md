@@ -16,3 +16,8 @@ Missão 03
 
 Missão 04
 
+<img width="1433" height="702" alt="image" src="https://github.com/user-attachments/assets/d4ca8c38-c9e3-48d9-bb7a-09e676f70b34" />
+
+<img width="1410" height="737" alt="image" src="https://github.com/user-attachments/assets/d188e28f-66e0-4d9f-b258-c97020035992" />
+
+Relatorio:

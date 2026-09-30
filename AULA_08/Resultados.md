@@ -5,3 +5,7 @@ LAB_01
 LAB_02
 
 <img width="815" height="260" alt="image" src="https://github.com/user-attachments/assets/b0644a8b-e409-4119-912a-418823ed8b18" />
+
+LAB_03
+
+<img width="663" height="407" alt="image" src="https://github.com/user-attachments/assets/bfd6c264-35f2-46df-a3a4-7a22e7ca1bd9" />

@@ -8,11 +8,14 @@ A logica fuzzy esta definindo a velocidade do ventilador de acordo com a tempura
 
 LAB_02
 
-<img width="565" height="453" alt="image" src="https://github.com/user-attachments/assets/1e4e7059-a432-40d2-b0d1-a3298b96f708" />
+<img width="526" height="66" alt="image" src="https://github.com/user-attachments/assets/65185f6d-051a-4419-8cec-c39f29c8d5bb" />
 
-<img width="568" height="411" alt="image" src="https://github.com/user-attachments/assets/002b7305-e787-4358-a732-809bc1221bbb" />
+<img width="594" height="388" alt="image" src="https://github.com/user-attachments/assets/2eef502b-0119-4b1f-9afe-72e4a6b2a201" />
 
-<img width="585" height="427" alt="image" src="https://github.com/user-attachments/assets/41fac259-e8d8-4889-b556-cdf6c04968e4" />
+<img width="535" height="391" alt="image" src="https://github.com/user-attachments/assets/8d97c258-2366-4df6-b31d-ae9df7550e16" />
+
+<img width="536" height="423" alt="image" src="https://github.com/user-attachments/assets/3f42c6ed-d179-4bb1-a31a-440e3923e9ff" />
+
 
 LAB_03
 

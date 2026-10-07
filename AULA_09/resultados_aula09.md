@@ -1,4 +1,4 @@
-LAB_O1
+LAB_01
 
 <img width="573" height="472" alt="image" src="https://github.com/user-attachments/assets/6f6cc028-6fd2-4d72-a84b-642cec4f69e0" />
 

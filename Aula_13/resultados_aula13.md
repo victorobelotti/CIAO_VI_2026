@@ -21,3 +21,10 @@ Lab 05
 lab 06
 
 <img width="641" height="126" alt="image" src="https://github.com/user-attachments/assets/cb040881-c446-41be-a465-d62c37857b16" />
+
+a) Variáveis contínuas vs. inteiras:Viabilidade: IntegerRandomSampling e RoundingRepair evitam valores fracionados inviáveis (ex.: 4,37 servidores), garantindo apenas números inteiros.
+Fronteira de Pareto: Deixa de ser uma curva suave e assume formato de degraus discretos, exigindo eliminate_duplicates=True para evitar indivíduos repetidos após o arredondamento.
+
+b) Hipervolume no Exercício 4:10 gerações: ~225.878,5080 gerações: ~226.858,28 (maior valor comprova melhor convergência e cobertura da fronteira).
+
+c) Escala hospitalar recomendada pelo MCDM (Exercício 6):Médicos: 16 | Enfermeiros: 34Custo total: R$ 34.500,00 | Tempo de espera: 18,31 min (atende o SLA $\le 25,0\text{ min}$).

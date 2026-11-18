@@ -9,3 +9,15 @@ LAB 02
 LAB 03
 
 <img width="709" height="435" alt="image" src="https://github.com/user-attachments/assets/21853fa1-021b-4984-9cd8-ab1fd6ad424d" />
+
+LAB 04
+
+<img width="310" height="75" alt="image" src="https://github.com/user-attachments/assets/f326bc3a-785d-4b04-b82b-965d4fcc9c8c" />
+
+Lab 05
+
+<img width="744" height="536" alt="image" src="https://github.com/user-attachments/assets/57994527-124a-4c0a-8d18-1e5b11461be4" />
+
+lab 06
+
+<img width="641" height="126" alt="image" src="https://github.com/user-attachments/assets/cb040881-c446-41be-a465-d62c37857b16" />

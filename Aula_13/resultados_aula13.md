@@ -25,6 +25,7 @@ lab 06
 a) Variáveis contínuas vs. inteiras:Viabilidade: IntegerRandomSampling e RoundingRepair evitam valores fracionados inviáveis (ex.: 4,37 servidores), garantindo apenas números inteiros.
 Fronteira de Pareto: Deixa de ser uma curva suave e assume formato de degraus discretos, exigindo eliminate_duplicates=True para evitar indivíduos repetidos após o arredondamento.
 
-b) Hipervolume no Exercício 4:10 gerações: ~225.878,5080 gerações: ~226.858,28 (maior valor comprova melhor convergência e cobertura da fronteira).
+b) Hipervolume 10 gerações: 226626.70 
+80 gerações: 226715,94 
 
-c) Escala hospitalar recomendada pelo MCDM (Exercício 6):Médicos: 16 | Enfermeiros: 34Custo total: R$ 34.500,00 | Tempo de espera: 18,31 min (atende o SLA $\le 25,0\text{ min}$).
+c) Escala hospitalar recomendada pelo MCDM:Médicos: 17 | Enfermeiros: 31 Custo total: R$ 34.350,00 | Tempo de espera: 18,33 min (atende o SLA $\le 25,0\text{ min}$).
